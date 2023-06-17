@@ -45,8 +45,8 @@ public class MyTextWatcher implements TextWatcher
         // Если я передавал только id элементов, то мне нужно сначал их найти,
         // потом обратиться к ним как к определенному типу (что бы получить доступ
         // к методам и свойвтвам конкретного типа элемента
-        ((TextView) activity.findViewById(txtViewId)).setText(
-                ((EditText) activity.findViewById(txtInputId)).getText());
+//        ((TextView) activity.findViewById(txtViewId)).setText(
+//                ((EditText) activity.findViewById(txtInputId)).getText());
     }
 
     @Override
