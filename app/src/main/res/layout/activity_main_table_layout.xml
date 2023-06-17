@@ -1,0 +1,40 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_weight="0.2"
+            android:text="Логин"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.2"
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <ScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/normal_size"
+            android:text="1ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr 2ssQweAr ssQweAr ssQweAr ssQweAr 3ssQweAr ssQweAr ssQweAr ssQweAr 4ssQweAr ssQweAr ssQweAr 5ssQweAr ssQweAr ssQweAr 6ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr ssQweAr "
+            >
+        </TextView>
+    </ScrollView>
+
+
+</TableLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="normal_size">50sp</dimen>
+    <dimen name="btn_w">64sp</dimen>
+    <dimen name="btn_h">64sp</dimen>
+</resources>
